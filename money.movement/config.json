@@ -1,5 +1,6 @@
 {
   "baseUrl": "https://api.dxhackathon.com",
   "clientId": "vgw3sf4f8nq3b98i1gdfr8wpx4gpty0ska52",
-  "clientSecret": "eb5f6rda6v0d1ld8y4fymkudo86gorrc47cj"
+  "clientSecret": "eb5f6rda6v0d1ld8y4fymkudo86gorrc47cj",
+  "oauth": "OTQ1NGI0NmQtNjY0Mi00ZWM3LWEyODgtMWE1NzFmMzE2MmY0OTliMWFhMmMtNGIzMS00MDlhLTlmZDYtMjY5MWZiZmRlODUzYzk5Y2UxYjUtMjA0Ni00ZGRjLWJjODMtYWZkMTkxMmJhZmRjMzhkZjgwOWYtOGE3Mi00Mjk0LWI0ZDUtNDQ2ZTQ1Mjg4ZDFkN2Q3Y2MxYmMtMmY0My00ZjRiLWE4OTItYjdjODFjY2U3YjVhYzAxZTIwYzItOWYzOS00YjIyLWIxYTEtZDcwZjhkMTFiYTEzOGMyYmQxNTYtNDM2ZC00ZWMwLWFmNDktZDVkM2E4ZWEwMWY5"
 }

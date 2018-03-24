@@ -22,7 +22,7 @@
 
 const config = require('./config');
 var request = require('request');
-let oauthToken = null;
+let oauthToken = config.oauth;
 const clientId = config.clientId
 const clientSecret = config.clientSecret;
 const baseUrl = config.baseUrl;

@@ -8,12 +8,18 @@ function intervalFunc() {
 
   device
   .on('finished',  console.log.bind(console, 'finished'))
-  .on('found', function found(address, name){
+  .on('found', async function found(address, name){
     console.log('Found: ' + address + ' with name ' + name);
-    if (name != 'HENRYSLAP') {
-      money();
+    //if (name === 'Yekaterina\'s Macbook') {
+      await money();
       lamp();
-    }
+      console.log("Starting timeout")
+      setTimeout(() => {
+        lamp();
+      }, 5000);
+      // console.log("Ending timeout")
+      // lamp();
+    //}
   }).inquire();
 }
 
