@@ -12,10 +12,10 @@ function intervalFunc() {
     console.log('Found: ' + address + ' with name ' + name);
     //if (name === 'Yekaterina\'s Macbook') {
       await money();
-      lamp();
+      lamp.toggleOn();
       console.log("Starting timeout")
       setTimeout(() => {
-        lamp();
+        lamp.toggleoff();
       }, 5000);
       // console.log("Ending timeout")
       // lamp();
