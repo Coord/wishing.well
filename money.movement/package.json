@@ -1,0 +1,17 @@
+{
+  "name": "moneymovement-example-javascript",
+  "version": "1.0.0-SNAPSHOT",
+  "description": "Money Movement API code sample",
+  "scripts": {
+    "test": "mocha",
+    "start": "node app.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "mocha": "^5.0.1",
+    "request": "^2.83.0"
+  }
+}
