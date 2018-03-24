@@ -12,7 +12,7 @@ async function init() {
   
 }
 
-init();
+module.exports = init;
 
 //let deviceList = await myTPLink.getDeviceList()
 

@@ -1,5 +1,6 @@
 const bluetooth = require('node-bluetooth');
 const money = require('../money.movement/app');
+const lamp = require('../smartplug/index');
  
 function intervalFunc() {
   // create bluetooth device instance
@@ -9,8 +10,10 @@ function intervalFunc() {
   .on('finished',  console.log.bind(console, 'finished'))
   .on('found', function found(address, name){
     console.log('Found: ' + address + ' with name ' + name);
-    money();
-  
+    if (name != 'HENRYSLAP') {
+      money();
+      lamp();
+    }
   }).inquire();
 }
 
