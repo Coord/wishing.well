@@ -15,7 +15,7 @@ function intervalFunc() {
       lamp.toggleOn();
       console.log("Starting timeout")
       setTimeout(() => {
-        lamp.toggleoff();
+        lamp.toggleOff();
       }, 5000);
       // console.log("Ending timeout")
       // lamp();
